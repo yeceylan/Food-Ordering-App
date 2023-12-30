@@ -23,7 +23,7 @@ export function UserprogressContextProvider({ children }) {
         setUserProgress('checkout');
     }
 
-    function hideChecout() {
+    function hideCheckout() {
         setUserProgress('');
     }
 
@@ -32,7 +32,7 @@ export function UserprogressContextProvider({ children }) {
         showCart,
         hideCart,
         showCheckout,
-        hideChecout
+        hideCheckout
     }
     return (
         <UserProgressContext.Provider value={userProgresCtx}>

@@ -14,7 +14,6 @@ export default function Header() {
     }, 0)
 
     function handleShowChart() {
-        userProgerssCtx.
         userProgerssCtx.showCart();
     }
 
